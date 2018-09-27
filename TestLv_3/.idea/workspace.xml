@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2dea473-765a-4ceb-8869-2ef557793cb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestLv/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/.idea/dictionaries/loushang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/common/DateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/common/EventLogConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/common/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/common/KpiType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/etl/mr/ald/AnalyserLogDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/etl/mr/ald/AnalyserLogDataRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/etl/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/etl/util/IPSeekerExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/etl/util/LoggerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/etl/util/UserAgentUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/etl/util/ip/IPSeeker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/StatsCommonDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/StatsDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/StatsUserDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/base/BaseDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/base/BrowserDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/base/DateDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/base/KpiDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/dim/base/PlatformDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/value/BaseStatsValueWritable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/value/map/TimeOutputValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/model/value/reduce/MapWritableValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/mr/IOutputCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/mr/TransformerOutputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/mr/nu/StatsDeviceBrowserNewInstallUserCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/mr/nu/StatsUserNewInstallUserCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/service/IDimensionConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/transformer/service/impl/DimensionConverterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/util/EJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/util/JdbcManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/com/beifeng/util/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/resources/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/resources/hbase-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/resources/output-collector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/resources/qqwry.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/resources/query-mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv/src/main/resources/transformer-env.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestLv_2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/loushang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/BrowserDimensionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/BrowserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/DateDimensionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/DepthMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/DimensionsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/EventDimensionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/EventMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/InboundDimensionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/InboundMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/KpiDimensionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/LocationDimensionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/LocationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/PlatformDimensionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pino_dataapi/src/main/resources/mapper/UserBehaviorMapper.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1772025232">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="24" />
+          <entry key="hql" value="9" />
+          <entry key="java" value="410" />
+          <entry key="properties" value="3" />
+          <entry key="sh" value="9" />
+          <entry key="xml" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="9" />
+          <entry key="CLASS" value="24" />
+          <entry key="Hibernate QL" value="9" />
+          <entry key="JAVA" value="410" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="hql" value="40" />
+          <entry key="java" value="1373" />
+          <entry key="sh" value="135" />
+          <entry key="xml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="135" />
+          <entry key="Hibernate QL" value="40" />
+          <entry key="JAVA" value="1373" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fetchValue</find>
+      <find>getColumnFilter</find>
+      <find>init</find>
+      <find>collect</find>
+      <find>colle</find>
+      <find>outputformat</find>
+      <find>u_ud</find>
+      <find>5</find>
+      <find>2015</find>
+      <find>6</find>
+      <find>initjob</find>
+      <find>setJarByClass</find>
+      <find>setfil</find>
+      <find>hh</find>
+      <find>characterEncoding</find>
+      <find>true</find>
+      <find>truefal</find>
+      <find>platform_convert</find>
+      <find>mysql</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/order</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/model/dim/base/LocationDimension.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/model/value/map/TextsOutputValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/location/LocationReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/location/LocationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/inbound/InboundMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/util/UrlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/model/dim/base/InboundDimension.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/inbound/bounce/InboundBounceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/inbound/bounce/InboundBounceReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/service/rpc/client/DimensionConverterClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/vd/view_depth_run.sh" />
+        <option value="$PROJECT_DIR$/src/main/resources/core-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hbase-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/transformer-env.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/etl/mr/ald/AnalyserLogDataRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/service/rpc/server/DimensionConverterImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRPC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/service/rpc/server/DimensionConverterServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/model/dim/StatsUserDimension_bak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/model/dim/StatsUserDimension.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/ActiveUserBrowserCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/ActiveUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/HourlyActiveUserCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/pv/PageViewReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/ActiveUserCombine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/ActiveUserCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/ActiveUserRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/ActiveUserReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nm/NewMemberReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nm/NewMemberCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nm/NewMemberMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nm/NewMemberRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/StatsDeviceBrowserNewInstallUserCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/StatsUserNewInstallUserCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/pv/PageViewCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/pv/PageViewMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/pv/PageViewRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsRunner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/TransformerBaseRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/vd/statsViewDepth.hql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TestLv_3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TestLv_3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-155" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestLv_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestLv_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestLv_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestLv_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestLv_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestLv_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestLv_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestLv_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestLv_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestLv_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beifeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="TransformerOutputFormat&#9;FILE&#9;file:///Users/loushang/code/zhuxue_bishe/TestLv_3/src/main/java/com/beifeng/transformer/mr/TransformerOutputFormat.java&#10;StatsUserDimension&#9;PSI&#9;JAVA://com.beifeng.transformer.model.dim.StatsUserDimension&#10;AnalyserLogDataRunner&#9;PSI&#9;JAVA://com.beifeng.etl.mr.ald.AnalyserLogDataRunner" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537963856958" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.beifeng.transformer.model.dim" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ActiveUserRunner">
+    <configuration name="ActiveUserRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beifeng.transformer.mr.au.ActiveUserRunner" />
+      <module name="TestLv_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beifeng.transformer.mr.au.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRPC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestRPC" />
+      <module name="TestLv_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ActiveUserRunner" />
+      <item itemvalue="Application.TestRPC" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ActiveUserRunner" />
+        <item itemvalue="Application.TestRPC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2dea473-765a-4ceb-8869-2ef557793cb2" name="Default Changelist" comment="" />
+      <created>1536994889883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536994889883</updated>
+      <workItem from="1536994891513" duration="14615000" />
+      <workItem from="1537188242987" duration="137000" />
+      <workItem from="1537600321783" duration="31234000" />
+      <workItem from="1537702708207" duration="13033000" />
+      <workItem from="1537776159784" duration="2011000" />
+      <workItem from="1537796055920" duration="14000" />
+      <workItem from="1537963578759" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61368000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-155" y="-1080" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21458998" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3260188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294979" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.13471779" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/NewInstallUserRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/StatsDeviceBrowserNewInstallUserCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nu/StatsUserNewInstallUserCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/pv/PageViewCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/pv/PageViewMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/pv/PageViewRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/IOutputCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/sessions/SessionsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/model/dim/StatsUserDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/etl/mr/ald/AnalyserLogDataMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-server/1.2.6/hbase-server-1.2.6-sources.jar!/org/apache/hadoop/hbase/mapreduce/TableMapReduceUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="529" column="54" selection-start-line="529" selection-start-column="51" selection-end-line="529" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/ipc/ProtocolSignature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/am/ActiveMemberCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/TransformerOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/model/value/map/TextsOutputValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/location/LocationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="29" column="85" lean-forward="true" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/location/LocationRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/location/LocationReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/nm/NewMemberCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/inbound/InboundRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/inbound/InboundReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/inbound/InboundMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/inbound/bounce/InboundBounceReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/service/rpc/server/DimensionConverterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/service/rpc/server/DimensionConverterServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/vd/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/OrderTotalAmountUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/PaymentTypeDimensionUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/CurrencyTypeDimensionUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/OrderInfoUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/en/statsEvent.hql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="98" lean-forward="true" selection-start-line="23" selection-end-line="23" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/DateDimensionUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/EventDimensionUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="66" column="57" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/vd/view_depth_run.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/PlatformDimensionUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/hive/vd/statsViewDepth.hql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="67" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/etl/mr/ald/AnalyserLogDataRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="70" column="46" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/TransformerBaseRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="286" column="34" selection-start-line="286" selection-start-column="25" selection-end-line="286" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/TransformerBaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beifeng/transformer/mr/au/ActiveUserRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestLv_3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
